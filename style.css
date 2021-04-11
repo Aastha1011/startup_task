@@ -1,0 +1,15 @@
+.row .col img{
+    
+        width :250px;
+        height :200px;
+}
+
+.row .col p{
+    
+    width :250px;
+    height :200px;
+}
+
+.row .col{
+    padding: 50px 0px 0px 150px;
+}
