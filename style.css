@@ -62,6 +62,77 @@
 
 /* Services section */
 
+.services > col{
+    height: 50px;
+    max-width: 40%;
+}
+
 .services .row{
     margin-top: 40px;
 }
+
+.services .row i {
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+.services .row h4 {
+    position: relative;
+    left: 50px;
+}
+
+.services h6{
+    padding-left: 0;
+    padding-top: 40px;
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services h6::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: inline-block;
+    background: #0563bb;
+    margin: 4px 10px;
+}
+
+.services .btn{
+    position: relative;
+    top: 50px;
+    left: 0;
+    font-weight: 700;
+    font-family: 'Lora', sans-serif;
+    border: #0563bb;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.services .btn:hover{
+    color: #ededed;
+}
+
+#col1, #col2{
+    box-sizing: border-box;
+    border: #ededed;
+    border-bottom: 5px solid #1b1717;
+    border-radius: 10%;
+    box-shadow: 18px 16px 19px 0 #ededed;
+}
+
+#col1:hover, #col2:hover{
+        color: #0563bb;
+        cursor: pointer;
+    }
+
+#col1{
+    position: relative;
+    left: 30px;
+}
+
+#col2{
+    position: relative;
+    left: 350px;
+}
+
