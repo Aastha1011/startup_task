@@ -1,15 +1,67 @@
-.row .col img{
-    
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Course Section */
+.courses .row .col img{
         width :250px;
         height :200px;
+        margin-bottom: 20px;
 }
 
-.row .col p{
-    
+.courses .row .col p{
     width :250px;
     height :200px;
+    font-family: "Open Sans", sans-serif;
 }
 
-.row .col{
-    padding: 50px 0px 0px 150px;
+.courses .row .col{
+    padding: 40px 0px 0px 110px;
+}
+
+.courses .heading{
+    padding-left: 96px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Kiwi Maru', serif;
+    font-family: 'Kiwi Maru', serif;
+    font-family: 'Lora', serif; */
+    font-weight: bolder;
+}
+
+.courses h6{
+    padding-left: 98px;
+    padding-top: 40px;
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.courses h6::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: inline-block;
+    background: #0563bb;
+    margin: 4px 10px;
+}
+
+.courses .row .col{
+    box-sizing: border-box;
+    border: 20px #1b1717;
+    box-shadow: 18px 16px 19px 0 #ededed;
+    /* border-radius: 7%; */
+}
+
+.courses .row .col .btn{
+    width : 250px;
+    background-color: #0563bb;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+/* Services section */
+
+.services .row{
+    margin-top: 40px;
 }
